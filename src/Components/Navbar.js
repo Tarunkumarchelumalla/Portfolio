@@ -72,7 +72,7 @@ export const Navbar = () => {
                   </a>
               </li>
               <li className='w-[160px] h-[68px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300 '> 
-                  <a href='mailto:tarunchelumall@gmail.com' className='flex justify-between w-full items-center text-gray-300'>
+                  <a href='https://drive.google.com/file/d/1m66WSBDzZqYOTbbb-MRMbWcp4Wt3exvh/view?usp=sharing' className='flex justify-between w-full items-center text-gray-300'>
                        Resume<FaBook size={30}/>
                   </a>
               </li>

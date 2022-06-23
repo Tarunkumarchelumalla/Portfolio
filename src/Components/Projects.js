@@ -15,12 +15,13 @@ const Projects = () => {
       </div>
       <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8'>
         <div   className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-           <img className="w-50 mx-auto  border-2 border-[#FF4900]" src={Capture} />
-           <p className='py-4'>Chat Application</p>
+          <img className="w-50 mx-auto  border-2 border-[#FF4900]" src={Capture} />
+          <a href='https://hellochatbytarun.netlify.app/'><p className='py-4'>Chat Application</p></a>
+           
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
            <img className="w-50 mx-auto border-2 border-[#FF4900]" src={ecco} />
-           <p className='py-4'>Eccomerce website</p>
+           <a href='https://greenify-13813.web.app/'><p className='py-4'>Ecommerce</p></a>
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
            <img className="w-50 mx-auto border-2 border-[#FF4900] " src={port} />
@@ -28,7 +29,7 @@ const Projects = () => {
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
            <img className="w-20 mx-auto border-2 border-[#FF4900] " src={under} />
-           <p className='py-4'> Future works</p>
+           <p className='py-10'> Future works</p>
         </div>
         
       </div>
