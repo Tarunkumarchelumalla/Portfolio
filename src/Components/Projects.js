@@ -15,20 +15,20 @@ const Projects = () => {
       </div>
       <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8'>
         <div   className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-          <img className="w-50 mx-auto  border-2 border-[#FF4900]" src={Capture} />
-          <a href='https://hellochatbytarun.netlify.app/'><p className='py-4'>Chat Application</p></a>
+        <a href='https://hellochatbytarun.netlify.app/'><img className="w-50 mx-auto  border-2 hover:border-[#FF4900] duration-300" src={Capture} />
+          <p className='py-4'>Chat Application</p></a>
            
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-           <img className="w-50 mx-auto border-2 border-[#FF4900]" src={ecco} />
-           <a href='https://greenify-13813.web.app/'><p className='py-4'>Ecommerce</p></a>
+        <a href='https://greenify-13813.web.app/'> <img className="w-50 mx-auto border-2 hover:border-[#FF4900] duration-300" src={ecco} />
+           <p className='py-4'>Ecommerce</p></a>
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
-           <img className="w-50 mx-auto border-2 border-[#FF4900] " src={port} />
+           <img className="w-50 mx-auto border-2 hover:border-[#FF4900] duration-300 " src={port} />
            <p className='py-4'>Portfolio</p>
         </div>
         <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-           <img className="w-20 mx-auto border-2 border-[#FF4900] " src={under} />
+           <img className="w-20 mx-auto border-2 hover:border-[#FF4900] duration-300 " src={under} />
            <p className='py-10'> Future works</p>
         </div>
         
