@@ -9,6 +9,7 @@ const Contact = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#FF4900] text-white'>Contact</p>
                 <p className='text-white py-4'>// Submit the form this thing works i will be notified</p>
             </div>
+        
             <input className='bg-white p-2' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email' />
             <textarea className='bg-white p-2' name="message" rows="10" placeholder='Message'></textarea>

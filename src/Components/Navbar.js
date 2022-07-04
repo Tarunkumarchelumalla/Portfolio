@@ -24,6 +24,9 @@ export const Navbar = () => {
               <li className='hover:border-b-4 border-[#FF4900] duration-200' >
               <Link to="about" smooth={true} duration={500}>About</Link>
               </li>
+              <li className='hover:border-b-4 border-[#FF4900] duration-200' >
+              <Link to="projects" smooth={true} duration={500}>Projects</Link>
+              </li>
               <li className='hover:border-b-4 border-[#FF4900] duration-200'>
               <Link to="skills" smooth={true} duration={500}>Skills</Link>
               </li>
@@ -45,6 +48,9 @@ export const Navbar = () => {
               </li>
               <li className="py-6 text-4xl hover:border-b-4 border-[#FF4900] duration-200">
               <Link onClick={handleburger} activeClass="active"to="about" smooth={true} duration={500}>About</Link>
+              </li>
+              <li className=' py-6 text-4xl hover:border-b-4 border-[#FF4900] duration-200' >
+              <Link  onClick={handleburger} to="projects" smooth={true} duration={500}>Projects</Link>
               </li>
               <li className="py-6 text-4xl hover:border-b-4 border-[#FF4900] duration-200">
               <Link onClick={handleburger} activeClass="active"to="skills" smooth={true} duration={500}>Skills</Link>

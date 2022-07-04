@@ -21,7 +21,7 @@ Having a Solid knowledge in
 writing well-designed and
 testable code.</p>
 
-<div className='flex'>
+<div name='home' className='flex '>
     <div>
          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FF4900] hover:border-[#FF4900]' >
          <Link to="Projects" smooth={true} duration={500} className="">view work</Link>
