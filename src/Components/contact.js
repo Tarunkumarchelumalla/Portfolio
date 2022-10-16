@@ -1,7 +1,15 @@
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Contact = () => {
+const[pass,setpass]=useState(true);
+const [name, setName] = useState("");
+const [email, setEmail] = useState("");
+
+useEffect(() => {
+  // Update the document title using the browser API
+ setpass(false);
+},[name ,email]);
   return (
     <div name='contact' className='w-full h-screen bg-black flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/3d2a8496-0e38-42c8-8531-88d7bbbab050" className='flex flex-col max-w-[600px] w-full'>
@@ -10,10 +18,15 @@ const Contact = () => {
                 <p className='text-white py-4'>// Submit the form this thing works i will be notified</p>
             </div>
         
-            <input className='bg-white p-2' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-white p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-[#FF4900] hover:border-[#FF4900] px-4 py-4 my-8 mx-auto flex items-center'>Submit</button>
+            <input id="1" className='bg-white p-2' type="text" placeholder='Name' name='name' required value={name} onChange={(e) => {
+                  setName(e.target.value);
+                }}/>
+            <input id="2"className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email' required  value={email}   onChange={(e) => {
+                  setEmail(e.target.value);
+                }}/>
+            <textarea  id ="3" className='bg-white p-2' name="message" rows="10" placeholder='Message' required 
+                  ></textarea>
+            <button className='text-white border-2 hover:bg-[#FF4900] hover:border-[#FF4900] px-4 py-4 my-8 mx-auto flex items-center' >Submit</button>
         </form>
     </div>
   )
