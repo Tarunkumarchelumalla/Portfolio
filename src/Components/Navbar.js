@@ -78,7 +78,7 @@ export const Navbar = () => {
                   </a>
               </li>
               <li className='w-[160px] h-[68px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69] duration-300 '> 
-                  <a href='https://drive.google.com/file/d/1up6rWwfsVMVh47Zo48DYSCk2w9flR9bK/view?usp=sharing' className='flex justify-between w-full items-center text-gray-300'>
+                  <a href='https://drive.google.com/file/d/1MMTKihLNJ86CTXwaaFjZze4X-AnU8y_A/view?usp=sharing' className='flex justify-between w-full items-center text-gray-300'>
                        Resume<FaBook size={30}/>
                   </a>
               </li>

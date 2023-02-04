@@ -11,6 +11,8 @@ import { getAnalytics, logEvent, isSupported } from "firebase/analytics";
 
 logEvent(analytics, 'your_event_name');
 function App() {
+
+  
   return (<>
   <div >
   <Navbar/>
