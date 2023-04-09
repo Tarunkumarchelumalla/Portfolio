@@ -6,6 +6,39 @@ const[pass,setpass]=useState(true);
 const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 
+let displayedColumns= ['carname', 'carmodel', 'type', 'vvin','gg','yy','hh','ll'];
+const arr=["#1F88E5","#673AB8", "#02897B", "#E64A19"];
+
+const colorMapping= new Map();
+
+if(displayedColumns.length<= arr.length){
+  let i=0;
+  displayedColumns.forEach(element => {
+    colorMapping.set(element,arr[i++]);
+  });
+ 
+}
+else{
+  const cal= Math.floor(displayedColumns.length/arr.length);
+  
+  let g=0;
+  for(let i=0;i<arr.length;i++){
+    let gg=i+cal;
+    while((i<gg || i===arr.length-1) && g<displayedColumns.length-1){
+      colorMapping.set(displayedColumns[g],arr[i]);
+      g++;
+      gg--;
+    }
+  }
+}
+
+console.log(colorMapping);
+// let i=0;
+// displayedColumns.length <= arr.length? displayedColumns.forEach((v:string)=>{
+//   colorMapping.set(v,arr[i++])
+// }):{
+  
+
 useEffect(() => {
   // Update the document title using the browser API
  setpass(false);
