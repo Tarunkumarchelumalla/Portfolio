@@ -5,6 +5,7 @@ import port from "../assests/porfolio.PNG"
 import ecco from "../assests/ecoomerce.PNG"
 import shop from "../assests/shop.PNG"
 import image from "../assests/imageClassifier.jpeg"
+import mern from "../assests/mern.PNG"
 const Projects = () => {
   return (
     <div name="projects" className=' w-full h-screen  bg-black text-white'>
@@ -66,6 +67,18 @@ const Projects = () => {
               <img className="w-50 mx-auto border-2 hover:border-[#FF4900] duration-300 " src={image} />
               <p className='py-4'> Image Clasifier</p>
               <p className='py-4 text-sm'>Built using reactjs,TensorFlow js COCOSSD model</p>
+           
+            </div>
+         
+          </a>
+
+          <a href='https://63476f2abbe59735b9e03c43--taskap45698.netlify.app/'>
+            
+            <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+             
+              <img className="w-50 mx-auto border-2 hover:border-[#FF4900] duration-300 " src={mern} />
+              <p className='py-4'> Social Media Application</p>
+              <p className='py-4 text-sm'>MernStack </p>
            
             </div>
          
