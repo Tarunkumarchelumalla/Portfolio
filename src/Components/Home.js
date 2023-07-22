@@ -11,7 +11,9 @@ export const Home = () => {
        "> Hi,my name is </p>
        <h1 className="text-white text-3xl sm:text-4xl font-bold">TarunKumar Chelumalla</h1>
        <p className="text-white  font-bold">I'm Computer Science Student </p>
-       <p className="text-white text-1xl py-4 max-w-[700px]">Welcome to my portfolio website! As a front-end developer, I create intuitive and engaging user experiences using the latest technologies such as Angular, React, and Vue.js. Here you'll find a collection of my projects that showcase my skills and creativity. If you're interested in working together or have any questions, please feel free to contact me. Let's build something amazing!.</p>
+       <p className="text-white text-1xl py-4 max-w-[700px]">Hi there! Welcome to my Portfolio Site, a technology enthusiast with a passion for building cool things. I have experience working with AngularJS, ReactJS, and NodeJS, and have recently been exploring the exciting world of TensorFlow JS.
+
+I love the feeling of creating something unique and impactful. Whether it's a web app, or something entirely different, I strive to bring creativity and innovation to everything I do. Let's build something amazing!.</p>
 
 <div name='home' className='flex '>
     <div>
