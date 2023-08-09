@@ -52,7 +52,7 @@ I love the feeling of creating something unique and impactful. Whether it's a we
           <div className=''>
           <ul>
               <li className='sm:hidden  px-4 py-3 my-2  flex justify-between ml-4 items-center bg-[#565f69] rounded-full hover:scale-125 duration-300'> 
-              <a href='https://drive.google.com/file/d/1m66WSBDzZqYOTbbb-MRMbWcp4Wt3exvh/view?usp=sharing' className='flex justify-between w-full items-center text-gray-300'>
+              <a href='https://drive.google.com/file/d/1-0iDU44PWETyBIUQ_XA_C9d8bu8eXF17/view?usp=sharing' className='flex justify-between w-full items-center text-gray-300'>
                        <FaBook  size={20}/>
                   </a>
               </li>
