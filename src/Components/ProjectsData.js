@@ -5,6 +5,7 @@ import shop from "../assests/shop.PNG"
 import image from "../assests/imageClassifier.jpeg"
 import mern from "../assests/mern.PNG"
 import gp from "../assests/gamerpal.png"
+import globe from "../assests/globe.png"
 
 export const Data=[
   
@@ -54,7 +55,13 @@ export const Data=[
         "techStack":"Built using reactjs,TensorFlow js COCOSSD model",
         "link":"https://fake-book-321d1.web.app/",
         "imageSrc":image
-
         
+    },
+    {
+        "id": 7,
+        "projectTitle":" Weather application",
+        "techStack":"Built using reactjs,Threejs, netlify,Reactive",
+        "link":"https://64f15e1cf4e4b01d1d238c57--weather00225.netlify.app/",
+        "imageSrc":globe
     },
 ]
