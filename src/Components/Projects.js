@@ -3,8 +3,12 @@ import port from "../assests/porfolio.PNG"
 import { Data } from './ProjectsData'
 const Projects = () => {
   const [ProjectsData,setProjectsData] = useState()
+  const calculateHeight=()=>{
+    let length = (Data.length/2)*100
+    return length +'px'
+  }
   return (
-    <div name="projects" className=' w-full h-screen  bg-black text-white'>
+    <div name="projects" className={`w-full h-[${calculateHeight}] sm:h-screen  bg-black text-white`}>
       
       <div className='max-w-[1000px] flex flex-col mx-auto p-4 justify-center w-full h-full'>
         
